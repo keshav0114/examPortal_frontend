@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: 'Montserrat';
+}
+#signup-cont{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url('../assets/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-sign{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 55%;
+    box-shadow: 5px 20px 20px #00000029;
+    border: 1px solid #0575FF;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0px 30px;
+}
+#csi-header-sign{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    color: #004B7C;
+    height: 80px;
+}
+#csilogo-sign>img{
+    width: 100px;
+    height: auto;
+}
+.label-transform-sign{
+    position: relative;
+    height: 60px;
+    width: 47%;
+}
+.sign-row{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sign-select{
+    width: 47%;
+    height: 40px;
+    color: #2E6B99;
+}
+.sign-radio{
+    margin: 0px 10px;
+    cursor: pointer;
+}

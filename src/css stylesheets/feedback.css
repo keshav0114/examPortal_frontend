@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat';
+    background-color: #E7F2FF;
+}
+.feedback-form{
+    width: 70%;
+    margin: 00px auto;
+    padding: 10px 50px 50px 50px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 10px #ffffff;
+}
+#navbar-feed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 60px;
+    background-color: #065B9A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+#filler-feed{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+}
+.sub-feed-head{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+#logo-exam-feed{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.cont{
+    width: 185px;
+    height: 60px;
+    margin: 0px auto;
+}
+.feed-logo{
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+    float: left;
+    position: relative;
+}
+.feeed-head{
+    display: inline-block;
+    height: 100%;
+    width: 130px;
+    float: right;
+    position: relative;
+}
+.feed-serve-up{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+    color: black;
+}
+.rating-ques-row{
+    margin: 30px 0px;
+    padding: 2px 10px;
+}
+.raing-ques{
+    font-size: 20px;
+    color: #000000;
+    margin: 5px 20px;
+}
+.rating-area{
+    margin: 40px 0px;
+}
+.rates{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.rate-input{
+    margin-right: 5px;
+    cursor: pointer;
+}
+.rate-label{
+    font-weight: 600;
+    font-size: 16px;
+    color: #065B9A;
+}
+textarea{
+    resize: none;
+    margin: 0 auto;
+    border: 1px solid #E7F2FF;
+    border-radius: 5px;
+    background-color: #E7F2FF;
+    padding: 20px;
+    font-size: 16px;
+    color: #065B9A;
+}
+textarea:focus{
+    outline: none;
+}
+.txt-ar{
+    text-align: center;
+    margin: 10px 0px 30px 0px;
+}
+.sug{
+    letter-spacing: 1.3;    
+}

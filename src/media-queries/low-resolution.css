@@ -1,0 +1,21 @@
+@media only screen and (max-width:700px){
+    #irresponsive{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        display: block;
+        font-size: 30px;
+        padding: 50px 30px;
+
+    }
+    #main-container{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    #csi-header{
+        width: 55%;
+    }
+}

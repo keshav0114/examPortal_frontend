@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_18" data-name="Rectangle 18" width="1920" height="1080" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-Test_Portal_Login_83">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Test_Portal_Login_83" data-name="Test Portal Login – 83" clip-path="url(#clip-Test_Portal_Login_83)">
+    <rect width="1920" height="1080" fill="#e7f2ff"/>
+    <path id="Path_352" data-name="Path 352" d="M4517.424-120s-202.052,240.17-234.358,421.709,10.087,273.7,59.132,352.422,156.185,164.27,305.543,232.926,376.6,71.976,376.6,71.976l395.991,11.8V-120Z" transform="translate(-3500 120)" fill="#fff"/>
+  </g>
+</svg>
